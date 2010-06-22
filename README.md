@@ -1,0 +1,1 @@
+These code examples are from the ["Metaprogramming Ruby"](http://pragprog.com/titles/ppmetr/metaprogramming-ruby) book written by Paolo Perotta. I'm testing these examples against [MacRuby](http://www.macruby.org/) 0.7.
