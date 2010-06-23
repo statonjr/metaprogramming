@@ -1,6 +1,6 @@
 #!/usr/local/bin/macruby -w
 
-class MyClass
+class GhostMethods
   
   # Remove this method to test NoMethodError
   def method_missing(name, *args)
