@@ -16,5 +16,9 @@ class DynamicMethodTest < Test::Unit::TestCase
   def test_send_call
     assert_equal 6, @obj.send(:mymethod, 3)
   end
+  
+  def test_define_method
+    assert_equal 9, @obj.dynamic(3)
+  end
 
 end
