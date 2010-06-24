@@ -1,0 +1,3 @@
+class CleanRoom
+  
+end
