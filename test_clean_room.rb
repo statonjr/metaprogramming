@@ -5,6 +5,7 @@ require "clean_room.rb"
 
 class TestCleanRoom < Test::Unit::TestCase
   def test_instance_eval
+    @obj = CleanRoom.new
     assert_equal('Doing something...', @obj.instance_eval { do_something })
   end
 end
